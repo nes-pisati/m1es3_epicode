@@ -1,0 +1,86 @@
+.box-image {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+
+.box-image:hover .btn-top {
+    display: flex;
+    transform: translateY(0);
+}
+
+.box-image:hover .btn-bottom {
+    display: flex;
+    transform: translateY(0);
+}
+
+.box-image:hover {
+    border-radius: 30px;
+    background-color: black;
+}
+
+.box-image:hover .card-image {
+    opacity: 50%;
+}
+
+.card-image {
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.btn-top {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    transform: translateY(-150%);
+    transition: transform 0.4s ease;
+}
+
+.button-save {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    height: 50px;
+    width: 70px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    height: 50px;
+    bottom: 25px;
+    width: 100%;
+    transform: translateY(150%);
+    transition: transform 0.4s ease;
+}
+
+.grey-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #ffffff; opacity: 85%;
+    font-weight: bold;
+}
+
+.circle {
+    width: 50px;
+}
+
+.button-div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
