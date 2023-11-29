@@ -37,7 +37,7 @@
     position: absolute;
     top: 25px;
     right: 20px;
-    transform: translateY(-150%);
+    transform: translateY(-153%);
     transition: transform 0.4s ease;
 }
 
@@ -60,7 +60,7 @@
     height: 50px;
     bottom: 25px;
     width: 100%;
-    transform: translateY(150%);
+    transform: translateY(153%);
     transition: transform 0.4s ease;
 }
 
@@ -75,6 +75,7 @@
 
 .circle {
     width: 50px;
+    background-color: #ffffff; opacity: 75%;;
 }
 
 .button-div {
@@ -83,4 +84,13 @@
     position: absolute;
     top: 0;
     overflow: hidden;
+}
+
+.left {
+    width: 135px;
+}
+
+p {
+    display: inline;
+    margin-left: 5px;
 }
